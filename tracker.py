@@ -32,6 +32,7 @@ lst.append(temp4)
     
 df = pd.DataFrame(lst, columns =['Country', 'Total Cases', 'New Cases','Total Deaths','New Deaths','Total Recoveries','Active Cases','Serious/Critical','Total Cases/1M population']) 
 
+# Email the dataframe using SMTP server
 import smtplib, ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
