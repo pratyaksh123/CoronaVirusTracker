@@ -38,7 +38,7 @@ from email.mime.multipart import MIMEMultipart
 
 sender_email = "tyagipratyaksh@gmail.com"
 recipients = ['bhattacharya.2@iitj.ac.in']
-password = "Unchanp1@"
+password = input("Enter Your Password")
 
 message = MIMEMultipart("alternative")
 message["Subject"] = "Corona Virus Tracker Updates"
